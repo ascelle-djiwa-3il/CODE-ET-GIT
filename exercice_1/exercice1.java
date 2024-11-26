@@ -1,6 +1,11 @@
 public class FactureManager {
-
-    // Calcul le total d'une facture
+    /**
+     * Calcul le total d'une facture
+     * @param type le type du produit
+     * @param type la quantite du produit
+     * @param type le prix d'un produit
+     */
+    
     public double calculerFacture(String typeProduit, int quantite, double prixUnitaire) {
         double total = quantite * prixUnitaire;
 
